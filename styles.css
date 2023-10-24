@@ -25,6 +25,10 @@ nav a {
     color: black;
 }
 
+nav a:hover {
+    text-decoration: underline;
+}
+
 .container {
     display: flex;
     width: 100%;
@@ -91,6 +95,11 @@ nav a {
 .container .contact a img{
     display: flex;
     width: 40px;
+}
+
+.container .contact a img:hover {
+    opacity: 70%;
+    transition: .2s;
 }
 
 .container .contact .icon {
